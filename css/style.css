@@ -9,7 +9,7 @@ body{
     background-color: #000;
     height: 82vh;
     width: 100vw;
-    margin-top: 4rem;
+    margin-top: 3rem;
     display: flex;
     overflow: auto;
     flex-direction: column;
