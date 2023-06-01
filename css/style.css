@@ -7,14 +7,17 @@ body{
 }
 .video-container{
     background-color: #000;
-    height: 82vh;
+    height: 80vh;
     width: 100vw;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
     display: flex;
     overflow: auto;
     flex-direction: column;
     scroll-snap-type: y mandatory;
     gap: 2rem;
+}
+.video-container::-webkit-scrollbar{
+    display: none;
 }
 .video-wrapper{
     min-height: 82vh;
@@ -24,9 +27,21 @@ body{
 .video-wrapper video{        
     width: 100%;        
     /* height: -webkit-fill-available; */
-    /* height: 80vh; */
-    height: auto;
+    height: 80vh;
+    /* height: auto; */
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* =============== nav start ============= */
 .nav_footer {
@@ -206,10 +221,6 @@ footer {
     z-index: 9999;
 }
 
-
-
-
-/* footer  */
 .link{
     width: 20%;
     text-align: center;
