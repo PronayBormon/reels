@@ -1,10 +1,17 @@
-@media(max-width:415px){
+@media(max-width:1400px){
+    .video-container {
+        height: 82vh !important;
+        margin-top: 4rem !important;
+    }
+}
+@media(max-width:426px){
     .video-wrapper video {
         height: 87vh !important;
-    }
+    } 
     .video-container {
         height: 85vh !important;
-    }    
+        margin-top: 3.4rem !important;
+    }
 }
 @media(max-width:360px){
     .video-wrapper video {
