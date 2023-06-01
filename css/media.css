@@ -14,7 +14,7 @@
         height: 83vh !important;
     }
 }
-@media(max-width:320px){
+@media(max-width:344px){
     .video-wrapper video{     
         height: auto !important;
     }
